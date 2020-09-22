@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>EXE Compiler</title>
+	<style>     
+	body
+     	 { background-color : #FFF8DC; color: Black; font-family:verdana,arial;font-size:12px;}
+	h5
+		 { color : #FF0000;}
+	 </style>
+	</head>
+
+<body>
+<h2>EXE Compiler - Readme</h2>
+<h5>.: Introduction</h5>
+This code sample demonstrates how to create your own exe files.
+<p>
+Not a direct approach. The program writes to the end of an existing 
+exe file. The exe file can then access this data and work with it.
+<p>
+The compiled exe does not require any extra files for working
+(except the vb runtimes, of course!)
+
+<h5>.: In more detail... :.</h5>
+prjRdfce.vbp is the program (when compiled) that acts as the template
+for the exe. It is compiled to 'rdfce.ext'. <br>
+prjExeCompiler is the program used to create new exe files. It first
+makes a copy of rdfce.ext to the file name supplied by the user, say
+test.exe. It then writes user supplied data to the end of test.exe.<br>
+When test.exe is run, it reads the data contained in itself and work
+accordingly (all that code is done in prjRdfce)
+<p>
+Hopefully, that explains the working.
+
+<h5>.: Uses :.</h5>
+For creating apps like self extracting archives, stand alone photo album,
+etc etc. If you have done something with it then please write to me.
+
+<h5>.: Copyright and stuff</h5>
+<b>&copy 2002, Anoop Sankar</b>
+<p>
+For distribution and usage see the notice on the source.
+<h5>.: Contact</h5>
+<b>e-mail</b> : <a href="mailto:anoops@gmx.net">anoops@gmx.net</a><br>
+<b>Website</b> : <a href="http://www.smilehouse.cjb.net/">www.smilehouse.cjb.net</a>
+
+<p>
+<p>
+Have Fun.<br>
+<i>Anoop Sankar</i>.<br>
+
+
+<hr>
+(Oct 25, 2002.)
+
+</body>
+	
+	
+</html>
+
+
+
